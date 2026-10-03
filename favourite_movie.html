@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frozen (2013)</title>
+
+    <style>
+        /* Background image for the whole webpage */
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+
+            background-image: url("c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Movie Poster.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Main movie title */
+        header {
+            background-color: rgba(0, 0, 0, 0.60);
+            padding: 15px;
+            margin: 10px 7px 20px 7px;
+            border-radius: 8px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Main content sections */
+        section {
+            background-color: rgba(0, 0, 0, 0.25);
+            padding: 20px;
+            margin: 20px 7px;
+            border-radius: 10px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Section headings */
+        h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        /* Paragraphs: transparent background */
+        p {
+            background-color: transparent;
+            color: white;
+            line-height: 1.5;
+        }
+
+        /* Cast list */
+        ul {
+            list-style-position: inside;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        /* Center all text */
+        .center {
+            text-align: center;
+        }
+
+        /* Media Gallery - 3 columns */
+        .media-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 7px;
+        }
+
+        /* Each image or video container */
+        .media-item {
+            background-color: rgba(0, 0, 0, 0.25);
+            padding: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Gallery images and videos */
+        .media-item img,
+        .media-item video {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+        }
+
+        /* Gallery captions */
+        .media-item p {
+            margin: 10px 0 5px;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        /* Responsive layout for smaller screens */
+        @media (max-width: 700px) {
+            .media-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 450px) {
+            .media-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main movie title -->
+    <header class="center">
+        <h1>Frozen (2013)</h1>
+    </header>
+
+    <!-- Introduction section -->
+    <section id="introduction" class="center">
+        <h2>Introduction</h2>
+
+        <p>
+            Frozen is a popular animated fantasy musical film produced
+            by Walt Disney Animation Studios and released in 2013.
+            <br>
+            The story follows two royal sisters, Elsa and Anna, in the
+            kingdom of Arendelle. With beautiful animation, memorable
+            <br>
+            songs, and an inspiring message about love and family,
+            Frozen became one of Disney's most recognized animated movies.
+        </p>
+    </section>
+
+    <!-- Plot section -->
+    <section id="plot" class="center">
+        <h2>Plot</h2>
+
+        <p>
+            The story follows Princess Anna as she sets out on a journey
+            to find her older sister, Queen Elsa, whose magical
+            <br>
+            ice powers have trapped their kingdom in an endless winter.
+            Along the way, Anna meets a mountain man named Kristoff,
+            <br>
+            his reindeer Sven, and a funny snowman named Olaf. Together,
+            they face challenges and discover that true love and the
+            <br>
+            bond between sisters can overcome even the coldest winter.
+        </p>
+    </section>
+
+    <!-- Cast section -->
+    <section id="cast" class="center">
+        <h2>Cast</h2>
+
+        <ul>
+            <li>Kristen Bell as Anna</li>
+            <li>Idina Menzel as Elsa</li>
+            <li>Jonathan Groff as Kristoff</li>
+            <li>Josh Gad as Olaf</li>
+        </ul>
+    </section>
+
+    <!-- Reviews section -->
+    <section id="reviews" class="center">
+        <h2>Reviews</h2>
+
+        <p>
+            Frozen received positive reviews from critics and audiences
+            for its animation, music, humor, and emotional story.
+            <br>
+            Its songs, especially "Let It Go," became widely popular.
+            Viewers also praised the film for highlighting the
+            <br>
+            importance of family, courage, and accepting yourself.
+            Overall, it is a memorable Disney film enjoyed by children
+            <br>
+            and adults alike.
+        </p>
+    </section>
+
+    <!-- Media Gallery Section -->
+    <section id="media">
+        <h2>Frozen Media Gallery</h2>
+
+        <div class="media-gallery">
+
+            <!-- Image 1 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Elsa.jpg"
+                     alt="Elsa using her ice powers">
+                <p>Queen Elsa</p>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Ana.jpg"
+                     alt="Princess Anna">
+                <p>Princess Anna</p>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Olaf.jpg"
+                     alt="Olaf the snowman">
+                <p>Olaf</p>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Kristoff.jpg"
+                     alt="Kristoff">
+                <p>Kristoff</p>
+            </div>
+
+            <!-- Image 5 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Sven.jpg"
+                     alt="Sven the reindeer">
+                <p>Sven</p>
+            </div>
+
+            <!-- Video 1 -->
+            <div class="media-item">
+                <video controls>
+                    <source src="c:\Users\elija\Downloads\Televzr Downloads\Disney's Frozen Official Trailer.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+                <p>Frozen Trailer</p>
+            </div>
+
+            <!-- Image 6 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Kindom of Arendelle.jpg"
+                     alt="The kingdom of Arendelle">
+                <p>Kingdom of Arendelle</p>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="media-item">
+                <video controls>
+                    <source src="c:\Users\elija\Downloads\Let It Go - Frozen (Lyrics and Animation Full Video).mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+                <p>Let It Go</p>
+            </div>
+
+            <!-- Image 7 -->
+            <div class="media-item">
+                <img src="c:\\Users\\elija\\OneDrive\\Humcom1 Mid - Term\\Movie Poster.jpg"
+                     alt="Frozen movie poster">
+                <p>Movie Poster</p>
+            </div>
+
+        </div>
+    </section>
+
+<div>
+     <!-- Additional References Section -->
+    <section id="reviews" class="center">
+        <h2>Additional References:</h2>
+        <a href="https://frozen.disney.com/">Frozen Official Website</a>
+        <br>
+        <a href="https://www.imdb.com/title/tt2294629/">IMDB Page</a>
+        <br>
+         <a href="https://disney.fandom.com/wiki/Frozen">Frozen Fandom Wiki</a>
+    </section>
+</div>
+</body>
+
+</html>
+```
